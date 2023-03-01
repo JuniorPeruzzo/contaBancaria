@@ -1,7 +1,11 @@
 import { ContaBancaria } from "./models/contaBancaria";
 
 const conta1 = new ContaBancaria();
-let saldoAtual: number = conta1.consultar();
+conta1.numero = '09211-1';
+conta1.agencia = '09202-2';
+console.log(conta1);
+
+/* let saldoAtual: number = conta1.consultar();
 console.log('Saldo inicial: ' + saldoAtual);
 
 //
@@ -26,4 +30,4 @@ conta1.sacar(50);
 saldoAtual= conta1.consultar();
 console.log('Saldo atual: ' + saldoAtual);
 
-conta1.sacar(1000);
+conta1.sacar(1000); */
