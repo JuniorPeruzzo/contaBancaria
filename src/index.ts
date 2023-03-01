@@ -1,8 +1,6 @@
 import { ContaBancaria } from "./models/contaBancaria";
 
-const conta1 = new ContaBancaria();
-conta1.numero = '09211-1';
-conta1.agencia = '09202-2';
+const conta1 = new ContaBancaria('12345-6', '0123-4');
 console.log(conta1);
 
 /* let saldoAtual: number = conta1.consultar();
